@@ -55,7 +55,7 @@ If a user clicks on an item the selected state of the item should be toggled. Ad
 
 - If the item was not previously selected - make it the only selected item
 - If the item was previously selected **and was not a part** of a selection group: unselect the item
-- If the item was previous selected **and was a part** of a selection group: make it the only selected item
+- If the item was previously selected **and was a part** of a selection group: make it the only selected item
 
 ### Action: toggle selection in a group
 
@@ -71,7 +71,7 @@ We perform this action if the user performs a `click` or presses the **enter** <
 
 #### Toggle selection in a group behaviour
 
-- If the item was not selected then add the item to the selected items
+- If the item was not previously selected then add the item to the selected items
 - If the item was previously selected then remove it from the selected items.
 
 ### Action: multi select
